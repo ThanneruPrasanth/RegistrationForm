@@ -1,0 +1,48 @@
+
+<div class="row">
+    <div class="col">
+
+        <span>Enter your Name</span>
+        <input type="text"[(ngModel)] =formDetails.name class="form-control"
+        placeholder="enter your Name " aria-label="">
+    </div>
+    <br>
+    <br>
+    <div class="col">
+        <span>Enter parent Name here</span>
+        <input type="text"[(ngModel)] =formDetails.parentname class="form-control"
+        placeholder="enter your Parent Name ">
+    </div>
+    <br>
+    <br>
+    <div class="col">
+        <span>Enter age here</span>
+        <input type="number"[(ngModel)] =formDetails.age class="form-control"
+        placeholder="enter your Age ">
+    </div>
+    <br>
+    <br>
+    <div class="col">
+        <span>Enter you DOB here</span>
+        <input type="text"[(ngModel)] =formDetails.DOB class="form-control"
+        placeholder="enter your DOB ">
+    </div>    
+    <br>
+    <br>
+    <div class="col">
+        <span>Enter you qulification here</span>
+        <input type="text"[(ngModel)] =formDetails.qulification class="form-control"
+        placeholder="enter your Qulification ">
+    </div>    
+    <br>
+    <br>
+    <div class="col">
+        <span>Enter you email here</span>
+        <input type="text"[(ngModel)] =formDetails.email class="form-control"
+        placeholder="enter your Email ">
+    </div>
+    <br>
+    <br>
+</div>
+
+<button (click)="save()" class="btn btn-success">SaveData</button>
